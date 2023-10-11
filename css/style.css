@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    caret-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: flex; 
+     width: 80%; border: 1px solid black;
+     border-radius: 10px; 
+     margin: 20px auto; 
+     padding: 10px; 
+     box-shadow: 0 0 15px gray;
+}
+.left {
+    width: 40%;
+}
+.card-container {
+    width: 350px; 
+    border: 1px solid black; 
+    padding: 10px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px grey;
+}
+.right {
+    width: 40%;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .container {
+        width: 380px;
+        margin-top: 20px;
+    }
+    section {
+         width: 700px; border: 1px solid black;
+         border-radius: 10px; 
+         padding: 10px; 
+         display: flex;
+         box-shadow: 0 0 15px gray;
+         flex-direction: column;
+         align-items: center;
+         margin: 5px;
+         width: 100%;
+    }
+    .card-container {
+      width: 100%;
+
+    }
+    
+  
+    .left {
+      flex: 100%;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    .right {
+      padding: 10px;
+      width: 100%;
+      margin: 10px;
+
+    }
+    .content {
+        width: 700px; border: 1px solid black;
+        border-radius: 10px; 
+        padding: 10px; 
+        display: flex;
+        box-shadow: 0 0 15px gray;
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+        width: 100%;
+    }
+    .skill{
+        width: 100%; border: 1px solid black;
+        padding: 10px; 
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+    }
+
+    #barsmenu {
+        display: block;
+      }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .skill {
+      flex-direction: column;
+    }
+  
+    .item-collapse {
+      display: none;
+    }
+  
+    #barsmenu {
+      display: block;
+    }
+  }

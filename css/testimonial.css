@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    padding: 50px 0;
+}
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.testimonial {
+    width: 25%;
+    margin: 0 15px 30px 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 rgba(0,0,0,0.2);
+}
+.testimonial img {
+    height: 200px;
+    object-fit: cover;
+}
+.quote {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.author {
+    font-weight: bold;
+    text-align: right;
+}
+.profile-testimonial {
+    width: 100%;
+}
+.container-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating-btn {
+    margin: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.rating-btn i {
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .testimonials {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .testimonial {
+       width:100px ;
+       border: 1px solid black;
+    }
+    .container-rating {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-testimonial {
+        width: 80px;
+        border-radius: 10px;
+    } 
+}
+
+
+@media only screen and (max-width: 700px) {
+    .testimonial {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .testimonial {
+        display: none;
+    }
+
+
+
+}

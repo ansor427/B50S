@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    caret-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+form div {
+    margin-top: 15px;
+}
+label {
+    font-weight: bold;
+}
+input, select, textarea {
+    background-color: #dedede;
+    width: 100%;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 5px;
+    resize: none;
+}
+.input-subject {
+    width: 102%;
+}
+button {
+    background-color: orangered;
+    color: white;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.button {
+    text-align: end;
+}
+button:hover {
+    background-color: black;
+}
+@media only screen and (max-width: 900px) {
+    h1{
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        margin-top: 20px;
+    }
+    .container {
+        width: 80%;
+        margin: 5px auto;
+        padding: 10px;
+        justify-content: center;
+       
+    
+    }
+    form div {
+        margin-top: 20px;
+    }
+    label {
+        font-weight: bold;
+    }
+    input, select, textarea {
+        background-color: #dedede;
+        width: 95%;
+        padding: 10px;
+        margin-top: 5px;
+        border-radius: 5px;
+        resize: none;
+    }
+    .input-subject {
+        width: 103%;
+    }
+    
+    button {
+        background-color: orangered;
+        color: white;
+        padding: 6px 25px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: black;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .testimonial {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .testimonial {
+        display: none;
+    }
+
+
+
+}
